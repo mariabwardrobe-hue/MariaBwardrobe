@@ -13,26 +13,21 @@
     .container { width:90%; margin:auto; padding:20px; text-align:center; }
     .social a { display:inline-block; margin:10px; padding:10px 20px; background:#8e44ad; color:#fff; border-radius:5px; text-decoration:none; }
     .social a:hover { background:#732d91; }
+    .header-flex { display:flex; align-items:center; justify-content:center; gap:15px; }
+    .header-flex img { height:60px; width:auto; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Maria B Wardrobe</h1>
-    <p>Contact Us</p>
+    <div class="header-flex">
+      <img src="image/logo.png" alt="Maria B Wardrobe Logo">
+      <div>
+        <h1>Maria B Wardrobe</h1>
+        <p>Contact Us</p>
+      </div>
+    </div>
   </header>
   <nav>
     <a href="index.html">Home</a>
     <a href="shop.html">Shop</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="container">
-    <h2>Connect With Us</h2>
-    <p>Follow us on social media for updates, new arrivals, and promotions.</p>
-    <div class="social">
-      <a href="https://www.facebook.com/112653223783255" target="_blank">Facebook Page</a>
-      <a href="https://www.instagram.com/mariabwardrobe_tacloban/" target="_blank">Instagram Page</a>
-    </div>
-  </div>
-</body>
-</html>
+    <a href="about.html">
