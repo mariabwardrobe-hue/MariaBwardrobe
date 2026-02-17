@@ -10,14 +10,21 @@
     nav { background:#732d91; padding:12px; text-align:center; }
     nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:bold; }
     nav a:hover { text-decoration:underline; }
-    .banner { background:url('https://via.placeholder.com/1200x300/8e44ad/ffffff?text=Maria+B+Wardrobe') no-repeat center; background-size:cover; height:300px; }
+    .banner { background:url('image/banner.jpg') no-repeat center; background-size:cover; height:300px; }
     .container { width:90%; margin:auto; padding:20px; }
+    .header-flex { display:flex; align-items:center; justify-content:center; gap:15px; }
+    .header-flex img { height:60px; width:auto; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Maria B Wardrobe</h1>
-    <p>Your fashion, your style, your wardrobe.</p>
+    <div class="header-flex">
+      <img src="image/logo.png" alt="Maria B Wardrobe Logo">
+      <div>
+        <h1>Maria B Wardrobe</h1>
+        <p>Your fashion, your style, your wardrobe.</p>
+      </div>
+    </div>
   </header>
   <nav>
     <a href="index.html">Home</a>
@@ -28,7 +35,9 @@
   <div class="banner"></div>
   <div class="container">
     <h2>Welcome</h2>
-    <p>Discover trendy fashion pieces inspired by our Instagram collection. Follow us on <a href="https://www.instagram.com/mariabwardrobe_tacloban/" target="_blank">Instagram</a> for the latest arrivals and styling ideas.</p>
+    <p>Discover trendy fashion pieces inspired by our Instagram collection. Follow us on 
+       <a href="https://www.instagram.com/mariabwardrobe_tacloban/" target="_blank">Instagram</a> 
+       for the latest arrivals and styling ideas.</p>
   </div>
 </body>
 </html>
